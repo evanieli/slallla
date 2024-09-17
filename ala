@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Cartões</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            margin: 1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content {
+            padding: 1rem;
+        }
+
+        .card-content h2 {
+            margin-bottom: 0.5rem;
+            font-size: 1.25rem;
+        }
+
+        .card-content p {
+            margin-bottom: 1rem;
+        }
+
+        .card-content a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .card-content a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Site de Cartões</h1>
+    </header>
+    <main>
+        <section class="card-container">
+            <article class="card"><!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com Cartões</title>
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            margin: 1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content {
+            padding: 1rem;
+        }
+
+        .card-content h2 {
+            margin-bottom: 0.5rem;
+            font-size: 1.25rem;
+        }
+
+        .card-content p {
+            margin-bottom: 1rem;
+        }
+
+        .card-content a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .card-content a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Site de Cartões</h1>
+    </header>
+    <main>
+        <section class="card-container">
+            <article class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Imagem do cartão">
+                <div class="card-content">
+                    <h2>Título do Cartão 1</h2>
+                    <p>Descrição do cartão 1. Este é um exemplo de conteúdo dentro do cartão.</p>
+                    <a href="#">Saiba mais</a>
+                </div>
+            </article>
+            <article class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Imagem do cartão">
+                <div class="card-content">
+                    <h2>Título do Cartão 2</h2>
+                    <p>Descrição do cartão 2. Aqui você pode adicionar qualquer informação que desejar.</p>
+                    <a href="#">Saiba mais</a>
+                </div>
+            </article>
+            <article class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Imagem do cartão">
+                <div class="card-content">
+                    <h2>Título do Cartão 3</h2>
+                    <p>Descrição do cartão 3. Use este espaço para descrever o conteúdo do cartão.</p>
+                    <a href="#">Saiba mais</a>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Seu Nome</p>
+    </footer>
+</body>
+</html>
+
+                    <h2>Título do Cartão 2</h2>
+                    <p>Descrição do cartão 2. Aqui você pode adicionar qualquer informação que desejar.</p>
+                    <a href="#">Saiba mais</a>
+                </div>
+            </article>
+            <article class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Imagem do cartão">
+                <div class="card-content">
+                    <h2>Título do Cartão 3</h2>
+                    <p>Descrição do cartão 3. Use este espaço para descrever o conteúdo do cartão.</p>
+                    <a href="#">Saiba mais</a>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Seu Nome</p>
+    </footer>
+</body>
+</html>
